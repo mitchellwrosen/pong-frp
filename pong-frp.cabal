@@ -26,6 +26,7 @@ executable pong-frp-exe
   build-depends:       base
                      , pong-frp
                      , reactive-banana
+                     , reactive-banana-sdl
   default-language:    Haskell2010
 
 test-suite pong-frp-test
