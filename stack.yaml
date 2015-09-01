@@ -1,15 +1,10 @@
 flags: {}
 packages:
 - '.'
-# - location:
-#     git: https://github.com/haskell-game/sdl2
-#     commit: bb2c4b6b52b48497f3271fc880dd1a0b11623ef7
+- location:
+    git: https://github.com/haskell-game/sdl2
+    commit: 99d5e0974456b06d42e8cb9406c9a8cba55621cf
 extra-deps:
 - reactive-banana-0.8.1.2
-- reactive-banana-sdl-0.2.0
-- SDL-0.6.5.1
-- SDL-image-0.6.1.1
-- SDL-ttf-0.6.2.1
-- data-lens-2.10.7
-- data-lens-template-2.1.9
+- break-1.0.0
 resolver: lts-3.2

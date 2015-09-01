@@ -1,1 +1,1 @@
-stack -v --extra-include-dirs="/usr/local/include/SDL" --extra-lib-dirs="/usr/local/lib" build --ghc-options "-L/usr/local/lib"
+stack build --file-watch --ghc-options "-threaded -L/usr/local/lib"
